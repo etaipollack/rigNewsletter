@@ -12,6 +12,3 @@ out.html
 
 # os
 .DS_Store
-
-# routine prompt kept local only (contains a live webhook) — not for the public repo
-.claude/commands/publish-email.md

@@ -1,0 +1,17 @@
+# secrets / local config
+.env
+*.local
+
+# node
+node_modules/
+npm-debug.log*
+
+# build artifacts / scratch
+out.html
+*.tmp
+
+# os
+.DS_Store
+
+# routine prompt kept local only (contains a live webhook) — not for the public repo
+.claude/commands/publish-email.md

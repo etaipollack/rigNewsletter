@@ -1,0 +1,16 @@
+{
+  "name": "rig-email-slack-bot",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Slack bot: drop screenshots + a caption, get a Rig-styled Klaviyo draft campaign back.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "@anthropic-ai/sdk": "^0.30.1",
+    "dotenv": "^16.4.5"
+  }
+}

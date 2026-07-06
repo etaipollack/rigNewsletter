@@ -1,0 +1,28 @@
+# Paste this at https://api.slack.com/apps → Create New App → From an app manifest
+display_information:
+  name: Rig Email Builder
+  description: Drop screenshots + a caption; get a Rig-styled Klaviyo draft campaign back.
+  background_color: "#047866"
+features:
+  bot_user:
+    display_name: rig-email-builder
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write          # post replies
+      - reactions:write     # ⏳ / ✅ / ❌ status reactions
+      - files:read          # download the uploaded images
+      - im:history          # read DMs to the bot
+      - channels:history    # read messages in public channels it's in
+      - groups:history      # read messages in private channels it's in
+settings:
+  event_subscriptions:
+    bot_events:
+      - message.im          # someone DMs the bot
+      - message.channels    # message in a public channel the bot is in
+      - message.groups      # message in a private channel the bot is in
+  interactivity:
+    is_enabled: false
+  socket_mode_enabled: true
+  org_deploy_enabled: false

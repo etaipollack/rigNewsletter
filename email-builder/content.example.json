@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Acme — Product Update Sample",
+    "preheader": "A sample newsletter showing the header, intro card, spotlight pill, numbered sections, finding cards, and footer.",
+    "brand_label": "/Product Update Sample",
+    "headline": "Sample Newsletter Headline Goes Here"
+  },
+  "brand": {
+    "header_logo": "images/icons/rig-header-lockup.png",
+    "spotlight_icon": "images/icons/spotlight-green.png",
+    "spotlight_label": "What's New This Release"
+  },
+  "intro": {
+    "icon": "images/icons/rig-mascot.png",
+    "text": "This is the **intro card**. Use it for a one or two sentence summary of the update, with **key terms bolded** so they stand out at a glance."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "heading": "First Feature Heading",
+      "body": "Describe the first feature here. Body text supports **bold** for emphasis, and you can follow it with a bulleted list:",
+      "bullets": [
+        "**Bullet label:** supporting detail for the first point.",
+        "**Another label:** a second supporting detail.",
+        "**Third label:** one more line of detail."
+      ],
+      "images": [
+        { "src": "images/shot1-connections-hub.jpg", "alt": "Sample screenshot one" }
+      ]
+    },
+    {
+      "number": "2",
+      "heading": "Second Feature Heading",
+      "body": "A second section can include more than one screenshot. Each entry in the images array renders full-width, stacked.",
+      "bullets": [
+        "**Immediate value:** what the reader can do right now.",
+        "**Coming soon:** what is planned next."
+      ],
+      "images": [
+        { "src": "images/shot2-entra-table.jpg", "alt": "Sample screenshot two" },
+        { "src": "images/shot3-entra-modal.jpg", "alt": "Sample screenshot three" }
+      ]
+    },
+    {
+      "number": "3",
+      "heading": "Third Feature Heading",
+      "body": "Plain sections work too — a heading, some body copy, and a single screenshot.",
+      "images": [
+        { "src": "images/shot4-dashboard.jpg", "alt": "Sample screenshot four" }
+      ]
+    },
+    {
+      "number": "4",
+      "heading": "Finding Cards Example",
+      "body": "Sections can also render **finding cards** — an icon in a colored box next to a label and description, grouped under a product logo.",
+      "card_groups": [
+        {
+          "logo": "images/icons/logo-salesforce.png",
+          "logo_w": 28,
+          "logo_h": 20,
+          "name": "Category A",
+          "cards": [
+            { "icon": "images/icons/sf-mfa.png", "title": "First card title:", "body": "A short description of the first item in this category." },
+            { "icon": "images/icons/sf-password.png", "title": "Second card title:", "body": "A short description of the second item in this category." },
+            { "icon": "images/icons/sf-session.png", "title": "Third card title:", "body": "A short description of the third item in this category." }
+          ]
+        },
+        {
+          "logo": "images/icons/logo-gitlab.png",
+          "logo_w": 22,
+          "logo_h": 22,
+          "name": "Category B",
+          "cards": [
+            { "icon": "images/icons/gl-secrets.png", "title": "Fourth card title:", "body": "A short description of the fourth item." },
+            { "icon": "images/icons/gl-deploy.png", "title": "Fifth card title:", "body": "A short description of the fifth item." },
+            { "icon": "images/icons/gl-token.png", "title": "Sixth card title:", "body": "A short description of the sixth item." }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "logo": "images/icons/rig-mascot.png",
+    "thanks": "Thanks for reading!",
+    "body": "Closing call-to-action goes here — point the reader to wherever you want them to go next.",
+    "legal": "You received this email because you subscribed to our updates. If you'd prefer not to receive these, you can {% unsubscribe %}."
+  }
+}

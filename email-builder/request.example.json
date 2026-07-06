@@ -1,0 +1,10 @@
+{
+  "text": "Product Update: Two Sample Features. We shipped Feature One, which lets users do something useful — including sub-points A, B, and C. We also added Feature Two, a workflow improvement that gives users more control. Replace this text with your real release notes; the routine turns it into formatted sections and bullets.",
+  "images": [
+    "images/shot1-connections-hub.jpg",
+    "images/shot4-dashboard.jpg"
+  ],
+  "callback_url": "https://webhook.site/your-test-endpoint",
+  "date_label": "/Product Update Sample",
+  "subject": "Product Update: Two Sample Features"
+}
